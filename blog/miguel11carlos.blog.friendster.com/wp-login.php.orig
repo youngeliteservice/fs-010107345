@@ -73,7 +73,7 @@
 <li><a target="_top" href="#">Join Friendster</a></li>
 </ul></div>
 <div id="fssrch" class="yui-skin-sam">
-<form action="http://www.friendster.com/search/user" method="get" name="navsearchform">
+<form action="#search/user" method="get" name="navsearchform">
 <input type="text" value="Search" name="query" id="navSearchBox"><input type="hidden" value="user" name="stype" id="searchType"><input type="hidden" value="user" name="s" id="searchQuery"><input type="hidden" value="1" name="search"><a onclick="javascript:document.navsearchform.submit(); return false;" href="#" id="navSearchLink">Search</a>
 </form>
 <div id="searchResult"></div>
@@ -110,7 +110,7 @@
 <div id="login"><h1>Members</h1></div>
 <div id="logbox">
 <form name="login_form" method="post" action="/login.php">
-<input type="hidden" name="_submitted" value="1"><input type="hidden" name="next" value="http://www.friendster.com/blogs.php?action=edit"><input type="hidden" name="tzoffset" value=""><script language="JavaScript">
+<input type="hidden" name="_submitted" value="1"><input type="hidden" name="next" value="#blogs.php?action=edit"><input type="hidden" name="tzoffset" value=""><script language="JavaScript">
               var now = new Date();
               document.login_form.tzoffset.value = now.getTimezoneOffset();
             </script><label for="email">Email:</label><div id="LGemail"><input type="text" name="email" id="emailLG" maxlength="100" alt="Email Address"></div>
@@ -275,7 +275,7 @@
         function switchLanguage(langType) {
             var langType = document.getElementById('langSelecter')[document.getElementById('langSelecter').selectedIndex].value;
             var rUrl = document.location.href;
-            url = 'http://www.friendster.com/setlang.php?lang='+langType+'&updatelang=1&next='+escape(rUrl);
+            url = '#setlang.php?lang='+langType+'&updatelang=1&next='+escape(rUrl);
             document.location.href = url;
         }
     </script><select name="languagepref" id="langSelecter" onChange="switchLanguage()"><option value="" disabled>Please Select</option>

@@ -367,7 +367,7 @@ Masyadong serious</bdo></div>
         function switchLanguage(langType) {
             var langType = document.getElementById('langSelecter')[document.getElementById('langSelecter').selectedIndex].value;
             var rUrl = document.location.href;
-            url = 'http://www.friendster.com/setlang.php?lang='+langType+'&updatelang=1&next='+escape(rUrl);
+            url = '#setlang.php?lang='+langType+'&updatelang=1&next='+escape(rUrl);
             document.location.href = url;
         }
     </script><select name="languagepref" id="langSelecter" onChange="switchLanguage()"><option value="" disabled>Please Select</option>

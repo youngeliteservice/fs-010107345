@@ -102,7 +102,7 @@
 </li>
 </ul></div>
 <div id="fssrch" class="yui-skin-sam">
-<form action="http://www.friendster.com/search/user" method="get" name="navsearchform">
+<form action="#search/user" method="get" name="navsearchform">
 <input type="text" value="Search" name="query" id="navSearchBox"><input type="hidden" value="user" name="stype" id="searchType"><input type="hidden" value="user" name="s" id="searchQuery"><input type="hidden" value="1" name="search"><a onclick="javascript:document.navsearchform.submit(); return false;" href="#" id="navSearchLink">Search</a>
 </form>
 <div id="searchResult"></div>
@@ -662,7 +662,7 @@ la lang. miss ko lang kayo. ingat lage ah. see you around. :P</bdo></li>
         function switchLanguage(langType) {
             var langType = document.getElementById('langSelecter')[document.getElementById('langSelecter').selectedIndex].value;
             var rUrl = document.location.href;
-            url = 'http://www.friendster.com/setlang.php?lang='+langType+'&updatelang=1&next='+escape(rUrl);
+            url = '#setlang.php?lang='+langType+'&updatelang=1&next='+escape(rUrl);
             document.location.href = url;
         }
     </script><select name="languagepref" id="langSelecter" onChange="switchLanguage()"><option value="" disabled>Please Select</option>
