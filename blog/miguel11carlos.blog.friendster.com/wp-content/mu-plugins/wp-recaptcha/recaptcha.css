@@ -25,7 +25,7 @@
    background-color: transparent !important;
 }
 
-/* This is for hyperlinked emails i.e. <a href="mailto:ohnoes@pwnies.com">TEXT</a> - TEXT*/
+/* This is for hyperlinked emails i.e. <a href="#">TEXT</a> - TEXT*/
 .mh-hyperlinked {
    background:transparent url(email.png) no-repeat scroll left center;
    border:medium none;
@@ -34,7 +34,7 @@
    padding:2px 2px 4px 20px;
 }
 
-/* This is for hyperlinked emails i.e. <a href="mailto:ohnoes@pwnies.com">TEXT</a> - DOTS*/
+/* This is for hyperlinked emails i.e. <a href="#">TEXT</a> - DOTS*/
 .mh-hyperlinked a, .mh-hyperlinked a:hover, .mh-hyperlinked a:visited, .mh-hyperlinked a:visited:hover {
    color: #FF7700;
    font-weight: bolder;

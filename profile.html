@@ -27,11 +27,11 @@
         var widgetsURL = 'http://widgets.friendster.com';
         var profileURL = 'http://profiles.friendster.com';
         var imagesURL = 'http://images.friendster.com/images';		
-    </script><link rel="shortcut icon" href="http://images.friendster.com/images/v2/friendster.ico">
-<link rel="stylesheet" type="text/css" media="screen, print" href="http://images.friendster.com/201012A-016/css/newuser.css">
-<link rel="stylesheet" type="text/css" media="screen, print" href="http://images.friendster.com/201012A-016/css/app_styles_profile.css">
-<link rel="stylesheet" type="text/css" media="screen, print" href="http://images.friendster.com/201012A-016/css/globnav.css">
-<link rel="stylesheet" type="text/css" media="screen, print" href="http://images.friendster.com/201012A-016/css/profileskins/promos/js2.css">
+    </script><link rel="shortcut icon" href="#">
+<link rel="stylesheet" type="text/css" media="screen, print" href="#">
+<link rel="stylesheet" type="text/css" media="screen, print" href="#">
+<link rel="stylesheet" type="text/css" media="screen, print" href="#">
+<link rel="stylesheet" type="text/css" media="screen, print" href="#">
 <script type="text/javascript" src="http://images.friendster.com/images/lib/yui-260/build/yahoo-dom-event/yahoo-dom-event.js"></script><script type="text/javascript" src="http://images.friendster.com/images/lib/yui-260/build/connection/connection-min.js"></script><script type="text/javascript" src="http://images.friendster.com/images/lib/yui-260/build/animation/animation-min.js"></script><script type="text/javascript" src="http://images.friendster.com/images/lib/yui-260/build/json/json-min.js"></script><script type="text/javascript" src="http://images.friendster.com/images/lib/yui-260/build/datasource/datasource-min.js"></script><script type="text/javascript" src="http://images.friendster.com/images/lib/yui-260/build/autocomplete/autocomplete-min.js"></script><script type="text/javascript" src="http://images.friendster.com/images/lib/yui-260/build/cookie/cookie-min.js"></script><script type="text/javascript" src="http://images.friendster.com/images/lib/yui-260/build/selector/selector-beta-min.js"></script><script type="text/javascript" src="http://images.friendster.com/201012A-016/js/common.js"></script><script type="text/javascript" src="http://images.friendster.com/201012A-016/js/fs_color_picker.js"></script><script type="text/javascript" src="http://images.friendster.com/201012A-016/js/fs_color_picker_ui.js"></script><script type="text/javascript" src="http://images.friendster.com/201012A-016/js/fs_pagelayout_ui.js"></script><script type="text/javascript" src="http://images.friendster.com/201012A-016/js/locale/en-US/strings.js"></script><script type="text/javascript" src="http://images.friendster.com/201012A-016/js/regHomePage.js"></script><script type="text/javascript" src="http://images.friendster.com/201012A-016/js/ui_helper.js"></script><script type="text/javascript" src="http://images.friendster.com/201012A-016/js/fs_nav_search_ui.js"></script><script type="text/javascript" src="http://images.friendster.com/201012A-016/js/fs_friends_autocomp.js"></script><script type="text/javascript" src="http://images.friendster.com/201012A-016/js/fs_releasefree.js"></script><script type="text/javascript" src="http://images.friendster.com/201012A-016/js/fs_gametitles_ui.js"></script><script type="text/javascript" src="http://images.friendster.com/201012A-016/js/modules_friendster.js"></script><script type="text/javascript" src="http://images.friendster.com/201012A-016/js/fs_date.js"></script><script type="text/javascript" src="http://images.friendster.com/201012A-016/js/photos.js"></script><script type="text/javascript">
 		
  		function fgetCookie(e){var b=document.cookie.lastIndexOf(e+"=");if(b==-1){return null;}b=document.cookie.indexOf("=",b)+1;var a=document.cookie.indexOf(";",b);if(a==-1){a=document.cookie.length;}var d=unescape(document.cookie.substring(b,a));return d;}function fgetCookieValue(g,a){var f=fgetCookie(g);var b;if(f==null||a==null){return null;}var e=f.indexOf(a+"=");if(e==-1){return null;}e=f.indexOf("=",e)+1;if(f.indexOf("&",e)!=-1){b=f.indexOf("&",e);}else{if(f.indexOf(";",e)!=-1){b=f.indexOf(";",e);}else{b=f.length;}}var d=unescape(f.substring(e,b));return d;}function fsetCookie(c,d,f,a,g,e){if(a&&typeof a.toGMTString=="function"){a=a.toGMTString();}var b=c+"="+((d)?d+"=":"")+escape(unescape(f))+((a)?"; expires="+a:"")+((g)?"; path="+g:"")+((e)?"; domain="+e:"");document.cookie=b;return true;}function fsetCookieValue(a,i,h){var f=fgetCookie(a);var g=null;var e=0;var b=new Date();b.setTime(b.getTime()+1000*60*60*24*365);var j="";if(fgetCookieValue(a,i)&&f){var d=f.indexOf(i+"=")+i.length+1;if(f.indexOf("&",d)!=-1){e=f.indexOf("&",d);}else{if(f.indexOf(";",d)!=-1){e=f.indexOf(";",d);}else{e=f.length;}}g=f.substring(0,d)+unescape(h)+f.substring(e,f.length);fsetCookie(a,null,g,j,"/",getCookieDomain());}else{if(f&&i){g=f.substring(0,f.length)+"&"+i+"="+unescape(h);fsetCookie(a,null,g,j,"/",getCookieDomain());}else{fsetCookie(a,i,unescape(h),j,"/",getCookieDomain());}}}function funsetCookie(a){var b=new Date();b.setTime(b.getTime()-1);fsetCookie(a,null,"deleted",b,"/",getCookieDomain());}function fremoveCookieKeyValue(a,b){}var pageData={friends:{edit:["/friends.php","/friendrequests.php","/featuredfriends.php"],display:["/","/user.php","/friends.php"]},account:{edit:["/editaccount.php"],display:["/","/user.php"]},testimonials:{edit:["/comments.php"],display:["/","/user.php"]},photos:{edit:["/editphotos.php"],display:["/","/user.php"]},profile:{edit:["/editprofile.php"],display:["/","/user.php"]},messages:{edit:["/messages.php"],display:["/"]},customize:{edit:["/user.php?pskin=","/editskin.php"],display:["/user.php"]}};function refreshCachedPage(){if(thisUserAgent=="isSafari"||thisUserAgent=="isOther"){return;}if(refreshIfNotYours()){return;}refreshIfChanged();addToCacheList();}function noFriendsterAuth(){if(fgetCookie("friendster_anon")==null&&fgetCookieValue("friendster_auth_v2","uid")==null&&fgetCookieValue("friendster_profiles_auth","uid")==null&&fgetCookieValue("friendster_widgets_auth","uid")==null&&fgetCookieValue("friendster_groups_auth","uid")==null){return true;}else{return false;}}function refreshIfNotYours(){if(typeof(pageViewerID)!="undefined"&&((fgetCookie("friendster_anon")!=null&&pageViewerID!="")||(fgetCookieValue("friendster_auth_v2","uid")&&parseInt(fgetCookieValue("friendster_auth_v2","uid"))!=pageViewerID)||(noFriendsterAuth()&&pageViewerID!=""))){refreshPage();return true;}if((typeof(pageViewerLangPref)!="undefined")&&(fgetCookie("friendster_lang")!=null)&&(pageViewerLangPref!="")&&(fgetCookie("friendster_lang")!=pageViewerLangPref)){refreshPage();return true;}return false;}function addToCacheList(){var a=window.location.pathname;if(findDisplayPage(a)){var b=new Date();fsetCookieValue("friendster_cacheList",a,b.getTime());}}function refreshIfChanged(){var j=fgetCookie("friendster_update");var b=1000;if(!j){return null;}var d=window.location.pathname;var k=fgetCookieValue("friendster_cacheList",d);if(!k){return null;}var e=new Date();b=e.getTime()-k;b=Math.floor(b/1000);b=Math.floor(b/60);if(j&&j.indexOf(d)!=-1&&b<60){var l=j.split(",");var g=new String();var h=false;for(var f=0;f<l.length;f++){if(!(l[f].toString()==d.toString())){g+=l[f]+",";}else{h=true;}}if(g!=""){fsetCookieValue("friendster_update",null,g.substring(0,g.length-1));}else{funsetCookie("friendster_update");}if(h==true){refreshPage();}return true;}return null;}function pageUpdated(){var d=getDisplayPages(getPath());var e=fgetCookie("friendster_update");if(e){var a=e+","+d;var b=unique(a.split(","));fsetCookieValue("friendster_update",null,b.join(","));}else{fsetCookieValue("friendster_update",null,d);}}function getPath(){var a=window.location.pathname;return a;}function getDisplayPages(d){var c="";for(var a in pageData){if(pageData[a].edit.join(",").indexOf(d)!=-1){c+=pageData[a].display.join(",")+",";}}var b=unique(c.substring(0,c.length-1).split(","));return b.join(",");}function findDisplayPage(b){for(var a in pageData){if(pageData[a].display.join(",").indexOf(b)!=-1){return true;}}return false;}function unique(a){tmp=new Array(0);for(var b=0;b<a.length;b++){if(!contains(tmp,a[b])){tmp.length+=1;tmp[tmp.length-1]=a[b];}}return tmp;}function contains(b,d){for(var c=0;c<b.length;c++){if(b[c]==d){return true;}}return false;}function refreshPage(){var a=window.location.href;window.location.reload();}function getUserAgent(){var a=navigator.userAgent;if(a.indexOf("Safari")!=-1){return"isSafari";}else{if(a.indexOf("Firefox")!=-1){return"isFF";}else{if(a.indexOf("Opera")!=-1){return"isOpera";}else{if(a.indexOf("MSIE")!=-1){return"isIE";}else{return"isOther";}}}}}var thisUserAgent=getUserAgent();function getCookieDomain(){if(location.hostname.indexOf("friendster.com")!=-1){return"friendster.com";}else{return location.hostname;}}
@@ -62,13 +62,13 @@
         GA_googleFetchAds();
       </script>
 </head>
-<body class="yui-skin-sam" id="themeIDgreen"><!-- Safe mode value: Safe mode OFF--><div id="grabSkinLink"><a href="http://www.friendster.com/user.php?pskin=108"></a></div>
+<body class="yui-skin-sam" id="themeIDgreen"><!-- Safe mode value: Safe mode OFF--><div id="grabSkinLink"><a href="#"></a></div>
 <script type="text/javascript">
     var isEntity = false;
     </script><div id="fshead" class="themeIDgreen"><div id="fsheadContainer" class="clearfix">
-<div id="fslogoBox"><a id="fslogo" title="Friendster" href="http://www.friendster.com/"></a></div>
+<div id="fslogoBox"><a id="fslogo" title="Friendster" href="#"></a></div>
 <div id="fssecNav" class="clearfix"><ul>
-<li><a target="_top" href="http://www.friendster.com/124370188">Hi Chris</a></li>
+<li><a target="_top" href="#">Hi Chris</a></li>
 <li id="siteTheme">
 <a href="#" id="currentTheme"></a><div id="themeContainer" style="display:none">
 <a href="#" class="themeColor blue"></a><a href="#" class="themeColor green current"></a><a href="#" class="themeColor purple"></a>
@@ -76,34 +76,34 @@
 <b class="plug">|</b>
 </li>
 <li>
-<a target="_top" href="http://www.friendster.com/messages.php" class="msgLink">Messages</a><a target="_top" href="http://www.friendster.com/messages.php" class="msgCount"><span>6</span></a>
+<a target="_top" href="#" class="msgLink">Messages</a><a target="_top" href="#" class="msgCount"><span>6</span></a>
 </li>
 <li>
-<b class="plug">|</b><a target="_top" href="http://www.friendster.com/wallet/">Wallet</a><b class="plug">|</b><a target="_top" href="http://www.friendster.com/editaccount.php">Settings</a><b class="plug">|</b><a target="_top" href="http://www.friendster.com/logout.php">Log Out</a>
+<b class="plug">|</b><a target="_top" href="#">Wallet</a><b class="plug">|</b><a target="_top" href="#">Settings</a><b class="plug">|</b><a target="_top" href="#">Log Out</a>
 </li>
 </ul></div>
 <div id="fsnav"><ul id="treemenu1">
-<li><a target="_top" href="http://www.friendster.com/" title="Your Friendster: welcome home!">Home</a></li>
-<li class="active"><a target="_top" title="View, edit or update your profile " href="http://www.friendster.com/124370188">Profile</a></li>
-<li><a target="_top" href="http://www.friendster.com/friends.php" title="See all your friends and connections">Friends</a></li>
-<li><a target="_top" href="http://www.friendster.com/photos/124370188" title="Photos: browse and upload images">Photos</a></li>
-<li><a target="_top" href="http://olx.friendster.com/gateway_cobranded.php?country=-" title="Create and browse classified ads">Classifieds</a></li>
+<li><a target="_top" href="#" title="Your Friendster: welcome home!">Home</a></li>
+<li class="active"><a target="_top" title="View, edit or update your profile " href="#">Profile</a></li>
+<li><a target="_top" href="#" title="See all your friends and connections">Friends</a></li>
+<li><a target="_top" href="#" title="Photos: browse and upload images">Photos</a></li>
+<li><a target="_top" href="#" title="Create and browse classified ads">Classifieds</a></li>
 <li class="gamesMenu
-							"><a href="http://www.friendster.com/games" title="Games">Games<img src="http://images.friendster.com/images/v2/joystick.png"></a></li>
+							"><a href="#" title="Games">Games<img src="http://images.friendster.com/images/v2/joystick.png"></a></li>
 <li class="funMenu lastNavItem">
 <span class="mainfoldericon" title="All things fun: get more out of Friendster">Fun</span><ul>
-<li><a target="_top" href="http://www.friendster.com/widgetdirectory.php?catid=127&amp;tabid=1" title="Applications: widgets to enrich your profile">Apps</a></li>
-<li><a target="_top" href="http://www.friendster.com/blogs.php" title="Create, manage or add to your blog">Blogs</a></li>
-<li><a target="_top" href="http://www.friendster.com/forums" title="Start discussions, get advice, have your say">Forums</a></li>
-<li><a target="_top" href="http://www.friendster.com/shop/" title="Send gifts, greetings and more">Gifts</a></li>
-<li><a target="_top" href="http://www.friendster.com/group/mygroup.php" title="View your groups; create or join new ones">Groups</a></li>
-<li><a target="_top" href="http://www.friendster.com/editaccount.php?tab=socialconnect" title="Updates Yahoo Pulse with Friendster events like new shoutouts, photo uploads, photo comments and more to come.">Yahoo Updates</a></li>
+<li><a target="_top" href="#" title="Applications: widgets to enrich your profile">Apps</a></li>
+<li><a target="_top" href="#" title="Create, manage or add to your blog">Blogs</a></li>
+<li><a target="_top" href="#" title="Start discussions, get advice, have your say">Forums</a></li>
+<li><a target="_top" href="#" title="Send gifts, greetings and more">Gifts</a></li>
+<li><a target="_top" href="#" title="View your groups; create or join new ones">Groups</a></li>
+<li><a target="_top" href="#" title="Updates Yahoo Pulse with Friendster events like new shoutouts, photo uploads, photo comments and more to come.">Yahoo Updates</a></li>
 </ul>
 </li>
 </ul></div>
 <div id="fssrch" class="yui-skin-sam">
 <form action="http://www.friendster.com/search/user" method="get" name="navsearchform">
-<input type="text" value="Search" name="query" id="navSearchBox"><input type="hidden" value="user" name="stype" id="searchType"><input type="hidden" value="user" name="s" id="searchQuery"><input type="hidden" value="1" name="search"><a onclick="javascript:document.navsearchform.submit(); return false;" href="/#" id="navSearchLink">Search</a>
+<input type="text" value="Search" name="query" id="navSearchBox"><input type="hidden" value="user" name="stype" id="searchType"><input type="hidden" value="user" name="s" id="searchQuery"><input type="hidden" value="1" name="search"><a onclick="javascript:document.navsearchform.submit(); return false;" href="#" id="navSearchLink">Search</a>
 </form>
 <div id="searchResult"></div>
 </div>
@@ -118,7 +118,7 @@
 <span property="rdfs:label vcard:fn">lynel</span><div rel="vcard:adr"><div typeof="vcard:Address">
 <span property="vcard:locality"></span><span property="vcard:region"></span><span property="vcard:postal-code"></span><span property="vcard:country-name">PH</span>
 </div></div>
-<span rel="vcard:photo"><img src="http://photos-p.friendster.com/photos/54/37/10107345/1_433202833m.jpg"></span><a rel="vcard:url" href="http://profiles.friendster.com/10107345">lynel llamas</a>
+<span rel="vcard:photo"><img src="http://photos-p.friendster.com/photos/54/37/10107345/1_433202833m.jpg"></span><a rel="vcard:url" href="#">lynel llamas</a>
 </div>
 <tr><td colspan="3">
     <script>
@@ -149,9 +149,9 @@ lynel llamas's Profile
       
       </script><div id="content_0"><div class="fitem1wrapper"><table class="fitem1table"><tr>
 <td class="itd">
-<div class="imgblock200"><a href="http://www.friendster.com/photos/10107345/1/433202833" title="lynel llamas: YT sa wakas nag karoon din ng sariling pic :)"><img src="http://photos-p.friendster.com/photos/54/37/10107345/1_433202833m.jpg"></a></div>
+<div class="imgblock200"><a href="#" title="lynel llamas: YT sa wakas nag karoon din ng sariling pic :)"><img src="http://photos-p.friendster.com/photos/54/37/10107345/1_433202833m.jpg"></a></div>
 <div class="controlPanelButtons">
-<a href="http://www.friendster.com/addfriendrequest.php?uid=10107345&amp;authcode=5d1f57e7aae199caa4ef3043d9a538">Add as Friend</a><br><a href="http://www.friendster.com/shop/?uid=10107345">Send a Gift</a><br><a href="http://www.friendster.com/bookmarks.php?action=add&amp;uid=10107345">Add Bookmark</a><br><a href="http://www.friendster.com/referafriend.php?refer=10107345">Forward to Friend</a><br><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script><script type="text/javascript">
+<a href="#">Add as Friend</a><br><a href="#">Send a Gift</a><br><a href="#">Add Bookmark</a><br><a href="#">Forward to Friend</a><br><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script><script type="text/javascript">
     var addthis_config = { username: "friendstershare", services_exclude:"print", data_track_clickback: true};
 	var addthis_localize = { share_caption: "Share"}
     </script>
@@ -159,9 +159,9 @@ lynel llamas's Profile
 </td>
 <td class="dtd fullwidth">
 <div class="username">lynel llamas</div>
-<div class="userBasicInfo">Female, 24, Single, <span class="userLocation"><a href="http://www.friendster.com/search/user?ktype=location&country=PH">Talavera, Nueva Ecija, PH</a></span><a class="more" href="#moreabout">More</a>
+<div class="userBasicInfo">Female, 24, Single, <span class="userLocation"><a href="#">Talavera, Nueva Ecija, PH</a></span><a class="more" href="#">More</a>
 </div>
-<div class="shoutout">gawa nanaman ng panibagong facebook account<span class="tstamp">08/08/2009</span><div class="shoutoutlinks"><a href="http://www.friendster.com/shoutoutstream.php?uid=10107345" title="">All Shoutouts</a></div>
+<div class="shoutout">gawa nanaman ng panibagong facebook account<span class="tstamp">08/08/2009</span><div class="shoutoutlinks"><a href="#" title="">All Shoutouts</a></div>
 </div>
 <div class="badgeMsgOff">
 <div class="warning">Messaging Off</div>
@@ -171,7 +171,7 @@ lynel llamas's Profile
 <div class="left">
 <span class="friendModuleTitle">
 lynel's Friends
-</span> <a class="friendCount" href="http://www.friendster.com/friends/10107345">
+</span> <a class="friendCount" href="#">
                                 (339)
                             </a>
 </div>
@@ -179,12 +179,12 @@ lynel's Friends
 </div>
 <div class="clearfix">
 <div class="userThumbBox">
-<div class="userThumb"><a style="background-image:url(http://photos-p.friendster.com/photos/82/62/80102628/1_338477947t.jpg)" href="http://profiles.friendster.com/tcoeaccenture"></a></div>
-<div class="friendName"><a href="http://profiles.friendster.com/tcoeaccenture">ACN-TCOE</a></div>
+<div class="userThumb"><a style="background-image:url(http://photos-p.friendster.com/photos/82/62/80102628/1_338477947t.jpg)" href="#"></a></div>
+<div class="friendName"><a href="#">ACN-TCOE</a></div>
 </div>
 <div class="userThumbBox">
-<div class="userThumb"><a style="background-image:url(http://photos-p.friendster.com/photos/07/93/9273970/1236014882420t.jpg)" href="http://profiles.friendster.com/NULL"></a></div>
-<div class="friendName"><a href="http://profiles.friendster.com/NULL">'mArmaLadEsz'</a></div>
+<div class="userThumb"><a style="background-image:url(http://photos-p.friendster.com/photos/07/93/9273970/1236014882420t.jpg)" href="#"></a></div>
+<div class="friendName"><a href="#"</a></div>
 </div>
 </div>
 </td>
@@ -208,35 +208,35 @@ lynel's Friends
       </script><div id="content_1">
 <div class="clearfix"><div class="albumGallery">
 <div class="albumBox">
-<div class="albumBg"><a name="&amp;lid=album_module_public" class="albumThumb" href="http://www.friendster.com/viewphotos.php?a=911246209&amp;uid=10107345" title="puerto galera" id="album_911246209" style="background-image: url(http://photos-p.friendster.com/photos/54/37/10107345/1_816672116m.jpg)"></a></div>
+<div class="albumBg"><a name="&amp;lid=album_module_public" class="albumThumb" href="#" title="puerto galera" id="album_911246209" style="background-image: url(http://photos-p.friendster.com/photos/54/37/10107345/1_816672116m.jpg)"></a></div>
 <ul id="album-details">
-<li><a title="puerto galera" class="albumName" href="http://www.friendster.com/viewphotos.php?a=911246209&amp;uid=10107345">puerto galera</a></li>
+<li><a title="puerto galera" class="albumName" href="#">puerto galera</a></li>
 <li>133 photos</li>
 </ul>
 </div>
 <div class="albumBox">
-<div class="albumBg"><a name="&amp;lid=album_module_public" class="albumThumb" href="http://www.friendster.com/viewphotos.php?a=642952954&amp;uid=10107345" title="STAR CITY" id="album_642952954" style="background-image: url(http://photos-p.friendster.com/photos/54/37/10107345/1_721267955m.jpg)"></a></div>
+<div class="albumBg"><a name="&amp;lid=album_module_public" class="albumThumb" href="#" title="STAR CITY" id="album_642952954" style="background-image: url(http://photos-p.friendster.com/photos/54/37/10107345/1_721267955m.jpg)"></a></div>
 <ul id="album-details">
-<li><a title="STAR CITY" class="albumName" href="http://www.friendster.com/viewphotos.php?a=642952954&amp;uid=10107345">STAR CITY</a></li>
+<li><a title="STAR CITY" class="albumName" href="#">STAR CITY</a></li>
 <li>20 photos</li>
 </ul>
 </div>
 <div class="albumBox">
-<div class="albumBg"><a name="&amp;lid=album_module_public" class="albumThumb" href="http://www.friendster.com/viewphotos.php?a=764158826&amp;uid=10107345" title="YT" id="album_764158826" style="background-image: url(http://photos-p.friendster.com/photos/54/37/10107345/1_232962733m.jpg)"></a></div>
+<div class="albumBg"><a name="&amp;lid=album_module_public" class="albumThumb" href="#" title="YT" id="album_764158826" style="background-image: url(http://photos-p.friendster.com/photos/54/37/10107345/1_232962733m.jpg)"></a></div>
 <ul id="album-details">
-<li><a title="YT" class="albumName" href="http://www.friendster.com/viewphotos.php?a=764158826&amp;uid=10107345">YT</a></li>
+<li><a title="YT" class="albumName" href="#">YT</a></li>
 <li>8 photos</li>
 </ul>
 </div>
 <div class="albumBox">
-<div class="albumBg"><a name="&amp;lid=album_module_public" class="albumThumb" href="http://www.friendster.com/viewphotos.php?a=902568354&amp;uid=10107345" title="BATCH AUG 19 OUTING" id="album_902568354" style="background-image: url(http://photos-p.friendster.com/photos/54/37/10107345/1_498284787m.jpg)"></a></div>
+<div class="albumBg"><a name="&amp;lid=album_module_public" class="albumThumb" href="#" title="BATCH AUG 19 OUTING" id="album_902568354" style="background-image: url(http://photos-p.friendster.com/photos/54/37/10107345/1_498284787m.jpg)"></a></div>
 <ul id="album-details">
-<li><a title="BATCH AUG 19 OUTING" class="albumName" href="http://www.friendster.com/viewphotos.php?a=902568354&amp;uid=10107345">BATCH AUG 19 OUTI...</a></li>
+<li><a title="BATCH AUG 19 OUTING" class="albumName" href="#">BATCH AUG 19 OUTI...</a></li>
 <li>15 photos</li>
 </ul>
 </div>
 </div></div>
-<div class="viewall"><a href="http://www.friendster.com/viewalbums.php?uid=10107345">View All Albums (9)</a></div>
+<div class="viewall"><a href="#">View All Albums (9)</a></div>
 </div>
 </div>
 <div class="clearfix commonbox  treasurechest" id="21">
@@ -254,7 +254,7 @@ lynel's Friends
       	modules["21"] = module;
       });
       
-      </script><div id="content_21"><div id="treasureChestCont" class="boxcontent"><div id="treasureChest" class="clearfix">lynel currently has <a href="/shop/?uid= 10107345"><strong>0</strong></a> gifts in his Treasure Chest.<br /><a href="/shop/?uid= 10107345"><strong>Send a gift to lynel</strong></a><strong><a href="http://www.friendster.com/chest/10107345" class="clearfix">View All</a></strong>
+      </script><div id="content_21"><div id="treasureChestCont" class="boxcontent"><div id="treasureChest" class="clearfix">lynel currently has <a href="#"><strong>0</strong></a> gifts in his Treasure Chest.<br /><a href="#"><strong>Send a gift to lynel</strong></a><strong><a href="#" class="clearfix">View All</a></strong>
 </div></div></div>
 </div>
 <div class="clearfix commonbox  publiccomments" id="18">
@@ -273,68 +273,68 @@ lynel's Friends
       });
       
       </script><div id="content_18">
-<div class="viewall"><a href="http://www.friendster.com/comments.php?uid=10107345">See All (176)</a></div>
+<div class="viewall"><a href="#">See All (176)</a></div>
 <div class="fitem1wrapper"><table class="fitem1table"><tr>
-<td class="itd"><div class="imgblock75"><a href="http://profiles.friendster.com/5618344"><img src="http://photos-p.friendster.com/photos/44/38/5618344/2_116328942m.jpg"></a></div></td>
+<td class="itd"><div class="imgblock75"><a href="#"><img src="http://photos-p.friendster.com/photos/44/38/5618344/2_116328942m.jpg"></a></div></td>
 <td class="dtd"><ul class="data">
-<li class="title"><a href="http://profiles.friendster.com/5618344">Cid</a></li>
+<li class="title"><a href="#">Cid</a></li>
 <li>Posted <span class="commentDate">2009-05-28T13:25:21Z</span>
 </li>
 <li><bdo dir="ltr">muzta na? anu na balita? hehe!</bdo></li>
 </ul></td>
 </tr></table></div>
 <div class="fitem1wrapper evenrow"><table class="fitem1table"><tr>
-<td class="itd"><div class="imgblock75"><a href="http://profiles.friendster.com/9325026"><img src="http://photos-p.friendster.com/photos/62/05/9325026/1_500875559m.jpg"></a></div></td>
+<td class="itd"><div class="imgblock75"><a href="#"><img src="http://photos-p.friendster.com/photos/62/05/9325026/1_500875559m.jpg"></a></div></td>
 <td class="dtd"><ul class="data">
-<li class="title"><a href="http://profiles.friendster.com/9325026">lei</a></li>
+<li class="title"><a href="#">lei</a></li>
 <li>Posted <span class="commentDate">2009-04-30T17:45:18Z</span>
 </li>
-<li><bdo dir="ltr">i'm using my friends name on here but i'm 23 f and have a webcam. come chat with me <a href="http://free4uwebcams.com" rel="nofollow" onclick="return outboundLink('http://free4uwebcams.com');">CLICK HERE</a> and signup ;) it's free</bdo></li>
+<li><bdo dir="ltr">i'm using my friends name on here but i'm 23 f and have a webcam. come chat with me <a href="#" rel="nofollow" onclick="return outboundLink('http://free4uwebcams.com');">CLICK HERE</a> and signup ;) it's free</bdo></li>
 </ul></td>
 </tr></table></div>
 <div class="fitem1wrapper"><table class="fitem1table"><tr>
-<td class="itd"><div class="imgblock75"><a href="http://profiles.friendster.com/2517364"><img src="http://photos-p.friendster.com/photos/46/37/2517364/1_520437754m.jpg"></a></div></td>
+<td class="itd"><div class="imgblock75"><a href="#"><img src="http://photos-p.friendster.com/photos/46/37/2517364/1_520437754m.jpg"></a></div></td>
 <td class="dtd"><ul class="data">
-<li class="title"><a href="http://profiles.friendster.com/2517364">emj</a></li>
+<li class="title"><a href="#">emj</a></li>
 <li>Posted <span class="commentDate">2009-04-15T03:32:47Z</span>
 </li>
-<li><bdo dir="ltr"><a href="http://www.polldaddy.com/s/9FFBA57B70B6FB28/">CFC Youth For Christ - University of the East, Manila - Reunion Survey</a><br />
+<li><bdo dir="ltr"><a href="#">CFC Youth For Christ - University of the East, Manila - Reunion Survey</a><br />
 <br />
 Click the link at sagot na! Salamat at GB!ü<br />
 >>ipasa mo pa sa iba>></bdo></li>
 </ul></td>
 </tr></table></div>
 <div class="fitem1wrapper evenrow"><table class="fitem1table"><tr>
-<td class="itd"><div class="imgblock75"><a href="http://profiles.friendster.com/44158445"><img src="http://photos-p.friendster.com/photos/54/48/44158445/2_910518547m.jpg"></a></div></td>
+<td class="itd"><div class="imgblock75"><a href="#"><img src="http://photos-p.friendster.com/photos/54/48/44158445/2_910518547m.jpg"></a></div></td>
 <td class="dtd"><ul class="data">
-<li class="title"><a href="http://profiles.friendster.com/44158445">SĩⓜⓟԼеñցP_ CATZ</a></li>
+<li class="title"><a href="#">SĩⓜⓟԼеñցP_ CATZ</a></li>
 <li>Posted <span class="commentDate">2009-04-02T07:06:12Z</span>
 </li>
 <li><bdo dir="ltr">bkit?nu balita??</bdo></li>
 </ul></td>
 </tr></table></div>
 <div class="fitem1wrapper"><table class="fitem1table"><tr>
-<td class="itd"><div class="imgblock75"><a href="http://profiles.friendster.com/44158445"><img src="http://photos-p.friendster.com/photos/54/48/44158445/2_910518547m.jpg"></a></div></td>
+<td class="itd"><div class="imgblock75"><a href="#"><img src="http://photos-p.friendster.com/photos/54/48/44158445/2_910518547m.jpg"></a></div></td>
 <td class="dtd"><ul class="data">
-<li class="title"><a href="http://profiles.friendster.com/44158445">SĩⓜⓟԼеñցP_ CATZ</a></li>
+<li class="title"><a href="#">SĩⓜⓟԼеñցP_ CATZ</a></li>
 <li>Posted <span class="commentDate">2009-04-02T07:06:12Z</span>
 </li>
 <li><bdo dir="ltr">bkit?nu balita??</bdo></li>
 </ul></td>
 </tr></table></div>
 <div class="fitem1wrapper evenrow"><table class="fitem1table"><tr>
-<td class="itd"><div class="imgblock75"><a href="http://profiles.friendster.com/3737779"><img src="http://photos-p.friendster.com/photos/97/77/3737779/1_203301847m.jpg"></a></div></td>
+<td class="itd"><div class="imgblock75"><a href="#"><img src="http://photos-p.friendster.com/photos/97/77/3737779/1_203301847m.jpg"></a></div></td>
 <td class="dtd"><ul class="data">
-<li class="title"><a href="http://profiles.friendster.com/3737779">₪ تبريد وسيم ₪</a></li>
+<li class="title"><a href="#">₪ تبريد وسيم ₪</a></li>
 <li>Posted <span class="commentDate">2009-03-31T15:25:00Z</span>
 </li>
 <li><bdo dir="ltr">tae....................</bdo></li>
 </ul></td>
 </tr></table></div>
 <div class="fitem1wrapper"><table class="fitem1table"><tr>
-<td class="itd"><div class="imgblock75"><a href="http://profiles.friendster.com/6241313"><img src="http://photos-p.friendster.com/photos/31/31/6241313/1_435089763m.jpg"></a></div></td>
+<td class="itd"><div class="imgblock75"><a href="#"><img src="http://photos-p.friendster.com/photos/31/31/6241313/1_435089763m.jpg"></a></div></td>
 <td class="dtd"><ul class="data">
-<li class="title"><a href="http://profiles.friendster.com/6241313">Eden Catherine</a></li>
+<li class="title"><a href="#">Eden Catherine</a></li>
 <li>Posted <span class="commentDate">2009-03-11T07:55:37Z</span>
 </li>
 <li><bdo dir="ltr">woi..heheh<br />
@@ -342,18 +342,18 @@ ala lang.. kakamiss lng ikaw...tara mag inum...hehhehe</bdo></li>
 </ul></td>
 </tr></table></div>
 <div class="fitem1wrapper evenrow"><table class="fitem1table"><tr>
-<td class="itd"><div class="imgblock75"><a href="http://profiles.friendster.com/3190984"><img src="http://photos-p.friendster.com/photos/48/90/3190984/2_650042030m.jpg"></a></div></td>
+<td class="itd"><div class="imgblock75"><a href="#"><img src="http://photos-p.friendster.com/photos/48/90/3190984/2_650042030m.jpg"></a></div></td>
 <td class="dtd"><ul class="data">
-<li class="title"><a href="http://profiles.friendster.com/3190984">Olga</a></li>
+<li class="title"><a href="#">Olga</a></li>
 <li>Posted <span class="commentDate">2009-02-14T10:17:45Z</span>
 </li>
-<li><bdo dir="ltr"><div style="text-align:center;"><a href="http://www.zwani.com/graphics/valentines_day/"><img src="http://images.zwani.com/graphics/valentines_day/images/xvalentines22.gif" alt="zwani.com myspace graphic comments" style="border:0px solid;"></a><br><a href="http://www.zwani.com/">Free Myspace Comments</a></div></bdo></li>
+<li><bdo dir="ltr"><div style="text-align:center;"><a href="#"><img src="http://images.zwani.com/graphics/valentines_day/images/xvalentines22.gif" alt="zwani.com myspace graphic comments" style="border:0px solid;"></a><br><a href="#">Free Myspace Comments</a></div></bdo></li>
 </ul></td>
 </tr></table></div>
 <div class="fitem1wrapper"><table class="fitem1table"><tr>
-<td class="itd"><div class="imgblock75"><a href="http://profiles.friendster.com/4967384"><img src="http://photos-p.friendster.com/photos/48/37/4967384/2_284315735m.jpg"></a></div></td>
+<td class="itd"><div class="imgblock75"><a href="#"><img src="http://photos-p.friendster.com/photos/48/37/4967384/2_284315735m.jpg"></a></div></td>
 <td class="dtd"><ul class="data">
-<li class="title"><a href="http://profiles.friendster.com/4967384">May</a></li>
+<li class="title"><a href="#">May</a></li>
 <li>Posted <span class="commentDate">2009-01-17T07:46:51Z</span>
 </li>
 <li><bdo dir="ltr"><object allowScriptAccess="never" allownetworking="internal" width="426" height="320" data="http://www.youtube.com/v/34Db0dSzbeI&hl=en&fs=1" type="application/x-shockwave-flash"><param allowScriptAccess="never" allownetworking="internal" name="movie" value="http://www.youtube.com/v/34Db0dSzbeI&hl=en&fs=1" /><param allowScriptAccess="never" allownetworking="internal" name="allowscriptaccess" value="never" /><param allowScriptAccess="never" allownetworking="internal" name="allownetworking" value="internal" /><param allowScriptAccess="never" allownetworking="internal" name="quality" value="high" /><param allowScriptAccess="never" allownetworking="internal" name="scale" value="noscale" /><param allowScriptAccess="never" allownetworking="internal" name="salign" value="l" /><param allowScriptAccess="never" allownetworking="internal" name="wmode" value="transparent" /></object><br />
@@ -365,15 +365,15 @@ la lang. miss ko lang kayo. ingat lage ah. see you around. :P</bdo></li>
 </ul></td>
 </tr></table></div>
 <div class="fitem1wrapper evenrow"><table class="fitem1table"><tr>
-<td class="itd"><div class="imgblock75"><a href="http://profiles.friendster.com/4534517"><img src="http://photos-p.friendster.com/photos/71/54/4534517/2_770491541m.jpg"></a></div></td>
+<td class="itd"><div class="imgblock75"><a href="#"><img src="http://photos-p.friendster.com/photos/71/54/4534517/2_770491541m.jpg"></a></div></td>
 <td class="dtd"><ul class="data">
-<li class="title"><a href="http://profiles.friendster.com/4534517">clever</a></li>
+<li class="title"><a href="#">clever</a></li>
 <li>Posted <span class="commentDate">2009-01-06T02:35:14Z</span>
 </li>
-<li><bdo dir="ltr"><a href="http://free4uwebcams.com"><img src="http://img227.imageshack.us/img227/4271/30814678wu2ak3.jpg" alt="30814678wu2ak3.jpg"></a></bdo></li>
+<li><bdo dir="ltr"><a href="#"><img src="http://img227.imageshack.us/img227/4271/30814678wu2ak3.jpg" alt="30814678wu2ak3.jpg"></a></bdo></li>
 </ul></td>
 </tr></table></div>
-<div class="viewall"><a href="http://www.friendster.com/comments.php?uid=10107345">See All (176)</a></div>
+<div class="viewall"><a href="#">See All (176)</a></div>
 </div>
 </div>
 <div class="clearfix commonbox  blogs" id="13">
@@ -424,34 +424,34 @@ la lang. miss ko lang kayo. ingat lage ah. see you around. :P</bdo></li>
 <span class="q">Member Since: </span><p>Jun 2004</p>
 </li>
 <li>
-<span class="q">Hometown: </span><p><a href="http://www.friendster.com/search/user?ktype=hometown&kword=talavera+nueva+ecija">talavera nueva ecija</a></p>
+<span class="q">Hometown: </span><p><a href="#">talavera nueva ecija</a></p>
 </li>
 <li>
-<a name="company"></a><span class="q">Company: </span><p><a href="http://www.friendster.com/search/user?ktype=companies&kword=n%2FA">n/A</a></p>
+<a name="company"></a><span class="q">Company: </span><p><a href="#">n/A</a></p>
 </li>
 <li>
-<span class="q">lynel's URL: </span><p><a href="http://profiles.friendster.com/nel642">http://profiles.friendster.com/nel642</a></p>
+<span class="q">lynel's URL: </span><p><a href="#">http://profiles.friendster.com/nel642</a></p>
 </li>
 <li>
-<span class="q">Schools:</span><p><a href="http://www.friendster.com/searchschool.php?SID=249425">College Of The Immaculate Conception</a>, Attended 1997 - 2004, Class of <a href="http://www.friendster.com/searchschool.php?SID=249425&amp;GRAD=2004">2004</a></p>
+<span class="q">Schools:</span><p><a href="#">College Of The Immaculate Conception</a>, Attended 1997 - 2004, Class of <a href="#">2004</a></p>
 </li>
 <li>
-<span class="q">Other education:</span><p><a href="http://www.friendster.com/search/user?ktype=schools&kword=COLLEGE+OF+THE+IMMACULATE+CONCETION++and+UNIVERSITY+OF+THE+EAST%21%21%21">COLLEGE OF THE IMMACULATE CONCETION  and UNIVERSITY OF THE EAST!!!</a></p>
+<span class="q">Other education:</span><p><a href="#">COLLEGE OF THE IMMACULATE CONCETION  and UNIVERSITY OF THE EAST!!!</a></p>
 </li>
 <li>
-<span class="q">College/University:</span><br><p><a href="http://www.friendster.com/searchcollege.php?CID=18773">University Of The East - Recto</a>, Attended 2004 - Present, Bachelor's Degree, <a href="http://www.friendster.com/searchcollege.php?CID=18773&amp;MAJOR=information%20technology">information technology</a></p>
+<span class="q">College/University:</span><br><p><a href="#"s Degree, <a href="#">information technology</a></p>
 </li>
 <li>
 <a name="occupation"></a><span class="q">Occupation:</span><br><p>n/A</p>
 </li>
 <li>
-<a name="affiliation"></a><span class="q">Affiliations:</span><br><p><a href="http://www.friendster.com/search/user?ktype=affiliations&kword=mharmmaladesz.....%21%21%21%21%21%21%21%21%21+youth+for+christ%28YFC%29%21%21">mharmmaladesz.....!!!!!!!!! youth for christ(YFC)!!</a></p>
+<a name="affiliation"></a><span class="q">Affiliations:</span><br><p><a href="#">mharmmaladesz.....!!!!!!!!! youth for christ(YFC)!!</a></p>
 </li>
 <li>
-<a name="interests"></a><span class="q">What I enjoy doing:</span><br><p><a href="http://www.friendster.com/search/user?ktype=interests&kword=net+surfing">net surfing</a>, <a href="http://www.friendster.com/search/user?ktype=interests&kword=sleeping">sleeping</a>, <a href="http://www.friendster.com/search/user?ktype=interests&kword=watching+t.v....eating.....">watching t.v....eating.....</a>, <a href="http://www.friendster.com/search/user?ktype=interests&kword=tambay+sa+bahay...">tambay sa bahay...</a></p>
+<a name="interests"></a><span class="q">What I enjoy doing:</span><br><p><a href="#">net surfing</a>, <a href="#">sleeping</a>, <a href="#">watching t.v....eating.....</a>, <a href="#">tambay sa bahay...</a></p>
 </li>
 <li>
-<a name="favoritebooks"></a><span class="q">Favorite Books:</span><br><p><a href="http://www.friendster.com/search/user?ktype=fbooks&kword=hong+kong+junta%2Fcomite+central+filipino+pulitika+at+kontrobersyal%21%21">hong kong junta/comite central filipino pulitika at kontrobersyal!!</a></p>
+<a name="favoritebooks"></a><span class="q">Favorite Books:</span><br><p><a href="#">hong kong junta/comite central filipino pulitika at kontrobersyal!!</a></p>
 </li>
 <li>
 <span class="q">Zodiac Sign:</span><br><p>Capricorn</p>
@@ -475,12 +475,12 @@ la lang. miss ko lang kayo. ingat lage ah. see you around. :P</bdo></li>
       
       </script><div id="content_10"><div class="boxcontent"><object allowScriptAccess="never" allownetworking="internal" width="425" height="350"><param allowScriptAccess="never" allownetworking="internal" name="movie" value="http://www.youtube.com/v/fjqPvBvU1tg" /><param allowScriptAccess="never" allownetworking="internal" name="wmode" value="transparent" /><embed allowScriptAccess="never" allownetworking="internal" src="http://www.youtube.com/v/fjqPvBvU1tg" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"></embed></object>
 
-<embed allowScriptAccess="never" allownetworking="internal" src="http://apps.rockyou.com/rockyou.swf?instanceid=38173484&ver=060828" quality="high" salign="lt" width="426" height="320" wmode="transparent" name="rockyou" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /><br /><a target="_BLANK" href="http://www.rockyou.com?type=slideshow&refid=38173484"><img alt="RockYou slideshow" src="http://apps.rockyou.com/images/logo-mini.gif" border="0" /></a> | <a target="_BLANK" href="http://www.rockyou.com/viewslideshow.php?instanceid=38173484">View</a> | <a target="_BLANK" href="http://www.rockyou.com/addfavorite.php?instanceid=38173484">Add Favorite</a>
+<embed allowScriptAccess="never" allownetworking="internal" src="http://apps.rockyou.com/rockyou.swf?instanceid=38173484&ver=060828" quality="high" salign="lt" width="426" height="320" wmode="transparent" name="rockyou" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /><br /><a target="_BLANK" href="#"><img alt="RockYou slideshow" src="http://apps.rockyou.com/images/logo-mini.gif" border="0" /></a> | <a target="_BLANK" href="#">View</a> | <a target="_BLANK" href="#">Add Favorite</a>
 
 
 
 
-<center><a href="http://www.zwani.com/graphics/funny_pictures/"><img src="http://images.zwani.com/graphics/funny_pictures/images/88funny-pictures261.jpg" alt="zwani.com myspace graphic comments" border=0></a><br><a href="http://www.zwani.com/graphics/funny_pictures/" target="_blank">Graphics for Funny Picture Comments</a></center></div></div>
+<center><a href="#"><img src="http://images.zwani.com/graphics/funny_pictures/images/88funny-pictures261.jpg" alt="zwani.com myspace graphic comments" border=0></a><br><a href="#" target="_blank">Graphics for Funny Picture Comments</a></center></div></div>
 </div>
 </ul></td>
 <td valign="top"><img src="http://images.friendster.com/images/s.gif" width="10" height="1"></td>
@@ -500,7 +500,7 @@ la lang. miss ko lang kayo. ingat lage ah. see you around. :P</bdo></li>
 <h2>
     How you're connected:
 </h2>
-<div class="viewall"><a href="http://www.friendster.com/connections.php?uid=10107345&amp;distant=1">See More</a></div>
+<div class="viewall"><a href="#">See More</a></div>
 <div class="clearfix"></div>
 <div class="bottom"><table align="center"><tr valign="middle" align="center">
 <td>You</td>
@@ -525,7 +525,7 @@ la lang. miss ko lang kayo. ingat lage ah. see you around. :P</bdo></li>
 		var zflag_kw="";		// keyword targeting parameter (used for OP sponsor id targeting)
 		</script><script language="JavaScript" src="http://c5.zedo.com/jsc/c5/fo.js"></script>
 </div>
-<div class="commonbox_noborder"><a href="http://sg.messenger.yahoo.com/winbeta" target="_blank"><img src="http://images.friendster.com/images/sponsors/yahoo-im-large.png" width="300" height="50"></a></div>
+<div class="commonbox_noborder"><a href="#" target="_blank"><img src="http://images.friendster.com/images/sponsors/yahoo-im-large.png" width="300" height="50"></a></div>
 <div class="commonbox">
 <h2 class="spock-heading">Featured Sponsor</h2>
 <script type="text/javascript">
@@ -536,7 +536,7 @@ la lang. miss ko lang kayo. ingat lage ah. see you around. :P</bdo></li>
 <form action="#" method="get" id="spock_search_form">
 <div id="spock_query_box_holder"><input name="query" id="spock_profile_query_box" onfocus="this.blur()" value="lynel llamas" type="text"></div>
 <input value="People Search" id="spock_search_button" type="submit"><div id="spock_logo_box">
-<a href="http://www.spock.com" target="_blank"><img alt="Spock" src="http://images.spock.com/images/logo_without_beta_small.gif" title="people search spock.com" width="80" height="24"></a><div id="spock_tagline"><a href="http://www.spock.com" target="_blank">people search</a></div>
+<a href="#" target="_blank"><img alt="Spock" src="http://images.spock.com/images/logo_without_beta_small.gif" title="people search spock.com" width="80" height="24"></a><div id="spock_tagline"><a href="#" target="_blank">people search</a></div>
 </div>
 </form>
 </div>
@@ -573,16 +573,16 @@ la lang. miss ko lang kayo. ingat lage ah. see you around. :P</bdo></li>
       </script><div id="content_7">
 <div class="boxcontent"><div class="flogrid75">
 <div class="flogriditem">
-<div class="ir"><a href="http://profiles.friendster.com/115962012"><img src="http://photos-p.friendster.com/photos/21/02/115962012/2_481471909m.jpg"></a></div>
-<div class="dr"><a href="http://profiles.friendster.com/115962012">Sigaw 2010</a></div>
+<div class="ir"><a href="#"><img src="http://photos-p.friendster.com/photos/21/02/115962012/2_481471909m.jpg"></a></div>
+<div class="dr"><a href="#">Sigaw 2010</a></div>
 </div>
 <div class="flogriditem">
-<div class="ir"><a href="http://profiles.friendster.com/13165671"><img src="http://photos-p.friendster.com/photos/17/65/13165671/1_659280315m.jpg"></a></div>
-<div class="dr"><a href="http://profiles.friendster.com/13165671">ue red warr...</a></div>
+<div class="ir"><a href="#"><img src="http://photos-p.friendster.com/photos/17/65/13165671/1_659280315m.jpg"></a></div>
+<div class="dr"><a href="#">ue red warr...</a></div>
 </div>
 </div></div>
 <div class="editlink"></div>
-<div class="viewall"><a href="http://www.friendster.com/friends.php?action=spusers&amp;uid=10107345">See All (2)</a></div>
+<div class="viewall"><a href="#">See All (2)</a></div>
 </div>
 </div>
 <div class="clearfix commonbox  latestgames" id="26">
@@ -598,14 +598,14 @@ la lang. miss ko lang kayo. ingat lage ah. see you around. :P</bdo></li>
       });
       
       </script><div id="content_26"><div id="latestgames" class="bulletinsBox font11 m10_t"><div class="sn_2col clearfix">
-<div class="widgetThumb"><div class="widgetThumbBg"><a name="bulletinUser" href="http://widgets.friendster.com/7dragon" title="The Seventh Dragon II" style="background:url(http://images.friendster.com/images/widgetDirectory/widgetThumbs/e98a1ccc963b07226c373adc563ee16f_46920.png) center center no-repeat"><img src="http://images.friendster.com/images/s.gif"></a></div></div>
+<div class="widgetThumb"><div class="widgetThumbBg"><a name="bulletinUser" href="#" title="The Seventh Dragon II" style="background:url(http://images.friendster.com/images/widgetDirectory/widgetThumbs/e98a1ccc963b07226c373adc563ee16f_46920.png) center center no-repeat"><img src="http://images.friendster.com/images/s.gif"></a></div></div>
 <div class="data80 m10_t">
-<a href="http://widgets.friendster.com/7dragon" class="font16b eventLink">The Seventh Dragon II</a><br><div>
-<a href="http://profiles.friendster.com/10317301">Toushiro Zepz</a>  is playing</div>
+<a href="#" class="font16b eventLink">The Seventh Dragon II</a><br><div>
+<a href="#">Toushiro Zepz</a>  is playing</div>
 <div class="floatL btnAlign">
-<span class="fsIconFriendsPlayingGame fsIcon20x20 btnAlign"><img src="http://images.friendster.com/images/s.gif"></span><a href="http://widgets.friendster.com/e98a1ccc963b07226c373adc563ee16f" class="gamesFriendsCount"><b>1</b></a><span>friend playing</span>
+<span class="fsIconFriendsPlayingGame fsIcon20x20 btnAlign"><img src="http://images.friendster.com/images/s.gif"></span><a href="#" class="gamesFriendsCount"><b>1</b></a><span>friend playing</span>
 </div>
-<div class="btnSmall"><a href="http://widgets.friendster.com/7dragon" class="p10_l playNowBtn eventLink"><b><span class="fsIcon13x13 btnAlign fsIconPlayNow"><img src="http://images.friendster.com/images/s.gif"></span>Play Now</b></a></div>&nbsp;&nbsp;<span class="eventTimeStamp pcomments"></span>
+<div class="btnSmall"><a href="#" class="p10_l playNowBtn eventLink"><b><span class="fsIcon13x13 btnAlign fsIconPlayNow"><img src="http://images.friendster.com/images/s.gif"></span>Play Now</b></a></div>&nbsp;&nbsp;<span class="eventTimeStamp pcomments"></span>
 </div>
 </div></div></div>
 </div>
@@ -626,16 +626,16 @@ la lang. miss ko lang kayo. ingat lage ah. see you around. :P</bdo></li>
       
       </script><div id="content_8">
 <div class="fitem1wrapper"><table class="fitem1table"><tr>
-<td class="itd"><div class="imgblock75"><a href="http://www.friendster.com/group/tabmain.php?gid=636896"><img src="http://photos.friendster.com/photos/group/69/86/636896/165146511480s.jpg"></a></div></td>
+<td class="itd"><div class="imgblock75"><a href="#"><img src="http://photos.friendster.com/photos/group/69/86/636896/165146511480s.jpg"></a></div></td>
 <td class="dtd"><ul class="data">
-<li class="title"><a href="http://www.friendster.com/group/tabmain.php?gid=636896">MarmaLAdeZ</a></li>
+<li class="title"><a href="#">MarmaLAdeZ</a></li>
 <li>12 Members | Private group</li>
 <li>Last post: <span id="timetag1"><script type="text/javascript">localDatewithTimezone("July 12, 2008 12:00 AM", "timetag1");</script></span>
 </li>
 </ul></td>
 </tr></table></div>
 <div class="editlink"></div>
-<div class="viewall"><a href="http://www.friendster.com/group/usergroup.php?uid=10107345">See All (1)</a></div>
+<div class="viewall"><a href="#">See All (1)</a></div>
 </div>
 </div>
 <div class="clearfix standalonebox  ads2" id="24">
@@ -658,7 +658,7 @@ la lang. miss ko lang kayo. ingat lage ah. see you around. :P</bdo></li>
 </tr>
 </table></td></tr></table></div>
 <div id="fsfooter"><div id="fsfooterWrapper">
-<a href="http://www.friendster.com/custhelp.php" target="_top">Help</a><span class="plug">|</span><span class="footerLangSelect">Language</span><script>
+<a href="#" target="_top">Help</a><span class="plug">|</span><span class="footerLangSelect">Language</span><script>
         function switchLanguage(langType) {
             var langType = document.getElementById('langSelecter')[document.getElementById('langSelecter').selectedIndex].value;
             var rUrl = document.location.href;
@@ -668,7 +668,7 @@ la lang. miss ko lang kayo. ingat lage ah. see you around. :P</bdo></li>
     </script><select name="languagepref" id="langSelecter" onChange="switchLanguage()"><option value="" disabled>Please Select</option>
 <option value="en-US" title="" selected>English</option>
 <option value="zh-CN" title="Simplified Chinese">简体中文</option>
-<option value="ms-MY" title="Bahasa Malaysia">Malay</option></select><a href="http://www.friendster.com/info/index.php" target="_top" class="footerSpace">About Us</a><span class="plug">|</span><a name="&amp;lid=advertise_footerLink" href="http://www.friendster.com/advertise/index.php" target="_top">Advertise</a><span class="plug">|</span><a href="http://blog.friendster.com/" target="_top">Blog</a><span class="plug">|</span><a href="http://www.olx.com/" target="_blank">Classifieds</a><span class="plug">|</span><a href="http://www.friendster.com/developer" target="_top">Developers</a><span class="plug">|</span><a href="http://www.friendster.com/info/presscenter.php" target="_top">Press Center</a><span class="plug">|</span><a href="http://www.friendster.com/info/privacy.php" target="_top">Privacy</a><span class="plug">|</span><a href="http://www.friendster.com/flagprofile.php?uid=10107345" target="_top">Report</a><span class="plug">|</span><a href="http://www.friendster.com/info/tos.php" target="_top">Terms</a><div class="pad_3">Copyright 2002-2011 Friendster, Inc.  All rights reserved.<!--phpqcx141.gbxsc.friendster.com--></div>
+<option value="ms-MY" title="Bahasa Malaysia">Malay</option></select><a href="#" target="_top" class="footerSpace">About Us</a><span class="plug">|</span><a name="&amp;lid=advertise_footerLink" href="#" target="_top">Advertise</a><span class="plug">|</span><a href="#" target="_top">Blog</a><span class="plug">|</span><a href="#" target="_blank">Classifieds</a><span class="plug">|</span><a href="#" target="_top">Developers</a><span class="plug">|</span><a href="#" target="_top">Press Center</a><span class="plug">|</span><a href="#" target="_top">Privacy</a><span class="plug">|</span><a href="#" target="_top">Report</a><span class="plug">|</span><a href="#" target="_top">Terms</a><div class="pad_3">Copyright 2002-2011 Friendster, Inc.  All rights reserved.<!--phpqcx141.gbxsc.friendster.com--></div>
 </div></div>
 <script type="text/javascript" src="http://images.friendster.com/201012A-016/js/footer.js"></script><div id="googleAdFactory" class="center fullwidth" style="visibility:hidden;display:none;margin:0 0 3px 0">
 <script type="text/javascript">
